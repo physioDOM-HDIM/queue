@@ -5,7 +5,8 @@
   "main": "queueService.js",
   "scripts": {
     "preinstall": "npm install ./install/logger-v1.1.0.tar.gz",
-    "start": "supervisor -w package.json,./ -- queueService.js -p 8001 2>&1 > queue.log",
+    "install": "node install/install.js",
+    "start": "supervisor -w package.json,./ -- queueService.js -s http://127.0.0.1:8443 2>&1 > queue.log",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fabrice Le Coz",
@@ -17,6 +18,7 @@
     "moment": "^2.9.0",
     "mongodb": "^1.4.28",
     "restify": "^2.8.4",
-    "rsvp": "^3.0.16"
+    "rsvp": "^3.0.16",
+    "swig": "^1.4.2"
   }
 }

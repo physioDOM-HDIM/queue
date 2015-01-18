@@ -1,0 +1,5 @@
+{
+	"serverName":"physiodomQueue.telecomsante.loc",
+	"logDir":"{{HOME}}/Sites/PhysioDOM/log",
+	"appPort":9000
+}
