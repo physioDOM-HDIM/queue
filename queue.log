@@ -1,0 +1,1615 @@
+
+Running node-supervisor with
+  program 'queueService.js -p 8001'
+  --watch 'package.json,./'
+  --extensions 'node,js'
+  --exec 'node'
+
+Starting child process with 'node queueService.js -p 8001'
+Watching directory '/Users/fablec/Sites/QueueService/package.json' for changes.
+Watching directory '/Users/fablec/Sites/QueueService' for changes.
+2015-01-18 17:24:51	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:24:51	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:24:51	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:24:51	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:24:51	Mac-Mini	[TRACE]	Queue	getDatabese
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:27:58	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:27:58	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:27:58	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:27:58	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:27:58	Mac-Mini	[TRACE]	Queue	getDatabese
+2015-01-18 17:28:29	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 17:28:34	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:28:34	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:28:37	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 17:28:45	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:28:45	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:28:45	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:28:45	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:28:45	Mac-Mini	[TRACE]	Queue	getDatabese
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:29:11	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:29:11	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:29:11	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:29:11	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:29:11	Mac-Mini	[TRACE]	Queue	getDatabase
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:30:18	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:30:18	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:30:18	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:30:18	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:30:18	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:30:53	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:30:53	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:30:53	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:30:53	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:30:53	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:32:35	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:32:35	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:32:35	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:32:35	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:32:35	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:32:46	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:32:46	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:32:46	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:32:46	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:32:46	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+2015-01-18 17:33:04	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:33:04	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:33:10	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 17:33:14	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:33:14	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:33:14	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:33:14	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:33:14	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:34:14	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:34:14	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:34:14	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:34:14	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:34:14	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:34:25	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:34:25	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:34:25	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:34:25	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:34:25	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:35:16	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:35:16	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:35:16	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:35:16	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:35:16	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+2015-01-18 17:37:08	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:37:08	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:37:11	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 17:37:16	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:37:16	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:37:16	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:37:16	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:37:16	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway {"code":400,"message":"bad message (no appSri)"}
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:37:31	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:37:31	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:37:31	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:37:31	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:37:31	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway {"code":400,"message":"bad message (no appSri)"}
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:39:02	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:39:02	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:39:02	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:39:02	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:39:02	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+database "/plt.treedb.srv-18590"
+2015-01-18 17:39:14	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:39:14	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:39:16	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:39:16	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:39:16	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:39:16	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:39:16	Mac-Mini	[TRACE]	Queue	getDatabase
+gateway "/plt.treedb.srv-18590"
+database "/plt.treedb.srv-18590"
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:41:43	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:41:43	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:41:43	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:41:43	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:41:43	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+2015-01-18 17:41:49	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:41:49	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:41:52	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 17:41:56	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:41:56	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:41:56	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:41:56	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:41:56	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:43:48	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:43:48	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:43:48	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:43:48	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:43:48	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+2015-01-18 17:43:54	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:43:54	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:44:02	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:44:02	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:44:02	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:44:02	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:44:02	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:44:46	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:44:46	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:44:46	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:44:46	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:44:46	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+2015-01-18 17:44:52	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:44:52	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:44:56	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:44:56	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:44:56	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:44:56	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:44:56	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:45:10	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:45:10	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:45:10	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:45:10	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:45:10	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:50:01	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:50:02	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:50:02	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:50:02	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:50:02	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+2015-01-18 17:50:47	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:50:47	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:50:50	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 17:50:55	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:50:55	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:50:55	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:50:55	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:50:55	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+2015-01-18 17:51:15	Mac-Mini	[TRACE]	IQueue	delMessage
+2015-01-18 17:51:15	Mac-Mini	[TRACE]	Queue	del	54bbe100b9d16a74750dfc92
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:53:15	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:53:15	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:53:15	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:53:15	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:53:15	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+2015-01-18 17:53:51	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 17:53:59	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:53:59	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:54:13	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:54:13	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:54:13	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:54:13	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:54:13	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:54:52	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:54:52	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:54:52	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:54:52	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:54:52	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:55:25	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:55:25	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:55:25	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:55:25	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:55:25	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:55:27	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:55:27	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:55:27	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:55:27	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:55:27	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+2015-01-18 17:55:33	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:55:33	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:55:39	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:55:39	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:55:39	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:55:39	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:55:39	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:56:20	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:56:20	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:56:20	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:56:20	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:56:20	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:56:37	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:56:37	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:56:37	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:56:37	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:56:37	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+error sending message
+2015-01-18 17:56:43	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:56:43	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:56:46	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:56:46	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:56:46	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:56:46	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:56:46	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+error sending message
+2015-01-18 17:57:12	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:57:12	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:57:12	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:57:12	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:57:12	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+error sending message
+2015-01-18 17:57:34	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:57:34	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:57:34	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:57:34	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:57:34	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+error sending message
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:59:04	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:59:04	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:59:04	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:59:04	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:59:04	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+error sending message
+2015-01-18 17:59:12	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 17:59:12	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 17:59:16	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 17:59:16	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 17:59:16	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:59:16	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:59:16	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del
+error sending message
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 17:59:59	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 17:59:59	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 17:59:59	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 17:59:59	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 17:59:59	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del "/plt.treedb.srv-18590" { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T17:59:16.794Z',
+  _id: 54bbf474298dece07d4ec670 }
+error sending message
+2015-01-18 18:00:06	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 18:00:06	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 18:00:10	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:00:10	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:00:10	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:00:10	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:00:10	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del "/plt.treedb.srv-18590" { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:00:10.515Z',
+  _id: 54bbf4aa14b8f0097e0d9494 }
+error sending message
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:01:46	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:01:46	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:01:46	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:01:46	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:01:46	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del "/plt.treedb.srv-18590" { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:00:10.515Z',
+  _id: 54bbf4aa14b8f0097e0d9494 }
+error sending message { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' } undefined
+2015-01-18 18:01:50	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 18:01:50	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 18:01:55	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:01:55	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:01:55	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:01:55	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:01:55	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del "/plt.treedb.srv-18590" { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:01:55.150Z',
+  _id: 54bbf513b535bd227ef3623a }
+error sending message { [Error: socket hang up] code: 'ECONNRESET' } undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:02:31	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:02:31	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:02:31	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:02:31	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:02:31	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del "/plt.treedb.srv-18590" { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:01:55.150Z',
+  _id: 54bbf513b535bd227ef3623a }
+url http://127.0.0.1:8443"/plt.treedb.srv-18590"/database?gateway=physio-028
+error sending message { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' } undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:02:34	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:02:34	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:02:34	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:02:34	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:02:34	Mac-Mini	[TRACE]	Queue	getDatabase
+database "/plt.treedb.srv-18590"
+del "/plt.treedb.srv-18590" { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:01:55.150Z',
+  _id: 54bbf513b535bd227ef3623a }
+url http://127.0.0.1:8443"/plt.treedb.srv-18590"/database?gateway=physio-028
+error sending message { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' } undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:04:50	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:04:50	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:04:50	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:04:50	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:04:50	Mac-Mini	[TRACE]	Queue	getDatabase
+database /plt.treedb.srv-18590
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:01:55.150Z',
+  _id: 54bbf513b535bd227ef3623a }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+2015-01-18 18:04:58	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:04:58	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:04:58	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:04:58	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:04:58	Mac-Mini	[TRACE]	Queue	getDatabase
+database /plt.treedb.srv-18590
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:01:55.150Z',
+  _id: 54bbf513b535bd227ef3623a }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+2015-01-18 18:05:13	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 18:05:13	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 18:05:20	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:05:20	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:05:20	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:05:20	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:05:20	Mac-Mini	[TRACE]	Queue	getDatabase
+database /plt.treedb.srv-18590
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:05:20.119Z',
+  _id: 54bbf5e0be0195517e6676eb }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:11:39	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:11:39	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:11:39	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:11:39	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:11:39	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:05:20.119Z',
+  _id: 54bbf5e0be0195517e6676eb }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:18:07	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:18:07	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:18:07	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:18:07	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:18:07	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:05:20.119Z',
+  _id: 54bbf5e0be0195517e6676eb }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+2015-01-18 18:18:17	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:21:12	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:21:12	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:21:12	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:21:12	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:21:12	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:05:20.119Z',
+  _id: 54bbf5e0be0195517e6676eb }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:22:08	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:22:08	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:22:08	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:22:08	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:22:08	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:05:20.119Z',
+  _id: 54bbf5e0be0195517e6676eb }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:23:22	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:23:22	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:23:22	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:23:22	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:23:22	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:05:20.119Z',
+  _id: 54bbf5e0be0195517e6676eb }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:25:22	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:25:22	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:25:22	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:25:22	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:25:22	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:05:20.119Z',
+  _id: 54bbf5e0be0195517e6676eb }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:25:27	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:25:27	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:25:27	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:25:27	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:25:27	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:05:20.119Z',
+  _id: 54bbf5e0be0195517e6676eb }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+2015-01-18 18:26:28	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 18:26:28	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 18:26:35	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:26:35	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:26:35	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:26:35	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:26:35	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+2015-01-18 18:26:45	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:29:29	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:29:29	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:29:29	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:29:29	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:29:29	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:31:33	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:31:33	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:31:33	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:31:33	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:31:33	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:33:27	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:33:27	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:33:27	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:33:27	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:33:27	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:37:14	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:37:14	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:37:14	Mac-Mini	[INFO]	Queue Service	%sv%s listening at %s	QueueService	0.0.1	http://0.0.0.0:9000
+2015-01-18 18:37:14	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:37:14	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:37:59	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:37:59	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:37:59	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:37:59	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:37:59	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:44:04	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:44:04	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:44:04	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:44:04	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:44:04	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:44:24	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:44:24	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:44:24	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:44:24	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:44:24	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:44:42	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:44:42	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:44:42	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:44:42	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:44:42	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:45:10	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:45:10	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:45:10	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:45:10	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:45:10	Mac-Mini	[TRACE]	Queue	getDatabase
+error getting database
+2015-01-18 18:45:24	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 18:45:40	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 18:45:40	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 18:45:51	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:45:51	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:45:51	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:45:51	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:45:51	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:45:51.014Z',
+  _id: 54bbff5fc4aff6e680f5c43d }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+2015-01-18 18:47:12	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:47:12	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:47:12	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:47:12	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 18:47:12	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:47:12.062Z',
+  _id: 54bbffb0c4aff6e680f5c43f }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-500
+message sent
+2015-01-18 18:47:29	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 18:47:45	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 18:47:45	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 18:49:10	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 18:49:14	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:49:14	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:49:14	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:49:14	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:49:14	Mac-Mini	[TRACE]	Queue	getDatabase
+del /plt.treedb.srv-18590 { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:49:14.696Z',
+  _id: 54bc002ac4aff6e680f5c441 }
+url http://127.0.0.1:8443/plt.treedb.srv-18590/database?gateway=physio-028
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:49:40	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:49:40	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:49:40	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:49:40	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:49:40	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:50:12	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:50:12	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:50:12	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:50:12	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:50:12	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:50:15	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:50:15	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:50:15	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:50:15	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:50:15	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent
+2015-01-18 18:50:22	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 18:50:28	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 18:50:36	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 18:51:21	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:51:21	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:51:21	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:51:21	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:51:21	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:52:29	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:52:29	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:52:29	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:52:29	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:52:29	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent
+2015-01-18 18:52:35	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 18:52:35	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 18:52:38	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:52:38	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:52:38	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:52:38	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:52:38	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent
+2015-01-18 18:53:01	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:53:24	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:53:24	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:53:24	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:53:24	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:53:24	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:52:38.916Z',
+  _id: 54bc00f6484c744681bdb16a,
+  send: '2015-01-18T18:53:24.224Z',
+  code: 200 }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:55:06	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:55:06	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:55:06	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:55:06	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:55:06	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:52:38.916Z',
+  _id: 54bc00f6484c744681bdb16a,
+  send: '2015-01-18T18:55:06.589Z',
+  code: 200 }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:55:32	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:55:32	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:55:32	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:55:32	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:55:32	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:52:38.916Z',
+  _id: 54bc00f6484c744681bdb16a,
+  send: '2015-01-18T18:55:32.596Z',
+  code: 200 }
+Error [TypeError: Property 'console' of object #<Object> is not a function]
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:55:48	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:55:48	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:55:48	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:55:48	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:55:48	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:52:38.916Z',
+  _id: 54bc00f6484c744681bdb16a,
+  send: '2015-01-18T18:55:48.703Z',
+  code: 200 }
+updated message
+Error [Error: Cannot use a writeConcern without a provided callback]
+2015-01-18 18:56:24	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 18:56:27	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:57:08	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:57:08	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:57:08	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:57:08	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 18:57:08	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:52:38.916Z',
+  _id: 54bc00f6484c744681bdb16a,
+  send: '2015-01-18T18:57:08.929Z',
+  code: 200 }
+updated message
+2015-01-18 18:57:19	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:57:29	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:57:29	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:57:29	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:57:41	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:57:41	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:57:41	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:57:41	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 18:57:41	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:57:41.132Z',
+  _id: 54bc02255bda6e9a81daa50c,
+  send: '2015-01-18T18:57:41.175Z',
+  code: 200 }
+updated message
+2015-01-18 18:57:53	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 18:59:13	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:59:13	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 18:59:13	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 18:59:26	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 18:59:26	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 18:59:31	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 18:59:31	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 18:59:31	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 18:59:31	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 18:59:31	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T18:59:31.387Z',
+  _id: 54bc0293f354c0ae81242db1,
+  send: '2015-01-18T18:59:31.449Z',
+  code: 200 }
+updated message
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:00:14	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:00:14	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:00:14	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:00:39	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 19:00:39	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 19:00:44	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:00:44	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:00:44	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:00:44	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:00:44	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:00:44.489Z',
+  _id: 54bc02dc96ad78d4814b72ff,
+  send: '2015-01-18T19:00:44.557Z',
+  code: 200 }
+updated message
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:02:46	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:02:46	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:02:46	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:03:01	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 19:03:01	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 19:03:10	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:03:10	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:03:10	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:03:10	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:03:10	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+2015-01-18 19:03:28	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 19:03:55	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:03:55	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:03:55	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:03:55	Mac-Mini	[TRACE]	Queue	sendMsg	physio-400
+2015-01-18 19:03:55	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-400',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:55.420Z',
+  _id: 54bc039b9f9ad50782a54dd1,
+  send: '2015-01-18T19:03:55.441Z',
+  code: 400 }
+updated message
+2015-01-18 19:04:23	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:06:52	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:06:52	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:06:52	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:06:52	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:06:52	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:10:21	Mac-Mini	[TRACE]	Queue	sendToSserver
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:11:09	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:11:09	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:11:09	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:11:09	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:11:09	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+2015-01-18 19:11:22	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:12:05	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:12:05	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:12:05	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:12:05	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:12:05	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+2015-01-18 19:12:14	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 19:12:24	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:12:24	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:12:24	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:12:24	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 19:12:24	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:12:24.589Z',
+  _id: 54bc05986df99f978236ff2e,
+  send: '2015-01-18T19:12:24.627Z',
+  code: 200 }
+2015-01-18 19:12:41	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:13:16	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:13:16	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:13:16	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:13:16	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:13:16	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+2015-01-18 19:13:24	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:14:03	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:14:03	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:14:03	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:14:03	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:14:03	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+2015-01-18 19:14:11	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:14:11	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:14:11	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:14:11	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:14:11	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+2015-01-18 19:14:21	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:14:21	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:14:21	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:14:21	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:14:21	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+2015-01-18 19:14:32	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:18:42	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:18:42	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:18:42	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:18:42	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:18:42	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:03:10.271Z',
+  _id: 54bc036e9f9ad50782a54dd0 }
+2015-01-18 19:18:49	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 19:19:08	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 19:19:08	Mac-Mini	[TRACE]	Queue	clear
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:20:13	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:20:13	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:20:13	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+Error undefined
+2015-01-18 19:20:18	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 19:20:32	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 19:20:36	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:20:36	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:20:36	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:20:36	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 19:20:36	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:20:36.465Z',
+  _id: 54bc078417dfccfe82f64f75,
+  send: '2015-01-18T19:20:36.503Z',
+  code: 200 }
+2015-01-18 19:20:40	Mac-Mini	[TRACE]	IQueue	getMessages
+2015-01-18 19:20:52	Mac-Mini	[TRACE]	IQueue	getMessages
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:21:26	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:21:26	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:21:26	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+Error undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:21:30	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:21:30	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:21:30	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+Error undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:22:15	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:22:15	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:22:15	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+Error undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:22:40	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:22:40	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:22:40	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+Error undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:22:58	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:22:58	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:23:10	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:23:10	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:23:10	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+Error undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:23:41	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:23:41	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:23:41	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+Error undefined
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:23:58	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:23:58	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:23:58	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:24:06	Mac-Mini	[TRACE]	IQueue	getMessages
+search { send: { '$exists': 0 } }
+2015-01-18 19:24:18	Mac-Mini	[TRACE]	IQueue	getMessages
+search { send: { '$exists': 0 } }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:24:45	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:24:45	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:24:45	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:24:55	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search { send: { '$exists': 0 } }
+2015-01-18 19:25:00	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search { send: { '$exists': 0 } }
+2015-01-18 19:25:06	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search { send: { '$exists': 0 } }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:25:22	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:25:22	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:25:22	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:25:26	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:25:44	Mac-Mini	[TRACE]	IQueue	getMessages
+filter error
+search { send: { '$exists': 1 }, code: 400 }
+2015-01-18 19:25:49	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:25:54	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:25:54	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:25:54	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:25:54	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:25:54	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+2015-01-18 19:25:56	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:25:56	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:25:56	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:25:56	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:25:56	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+2015-01-18 19:26:13	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:27:00	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:27:44	Mac-Mini	[TRACE]	IQueue	getMessages
+filter error
+search { send: { '$exists': 1 }, code: 400 }
+2015-01-18 19:27:45	Mac-Mini	[TRACE]	IQueue	getMessages
+filter error
+search { send: { '$exists': 1 }, code: 400 }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:28:34	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:28:34	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:28:34	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:28:34	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:28:34	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:25:54.523Z',
+  _id: 54bc08c2c4733d71836c768e }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:28:40	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:28:40	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:28:40	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:28:40	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:28:40	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+-> Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:25:54.523Z',
+  _id: 54bc08c2c4733d71836c768e }
+2015-01-18 19:29:09	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:29:17	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 19:29:17	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 19:29:20	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:29:23	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:29:30	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:29:30	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:29:30	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:29:30	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 19:29:30	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:29:30.218Z',
+  _id: 54bc099aab95d29d8300d60e,
+  send: '2015-01-18T19:29:30.243Z',
+  code: 200 }
+2015-01-18 19:29:35	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:29:41	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:29:50	Mac-Mini	[TRACE]	IQueue	getMessages
+filter sent
+search { send: { '$exists': 1 } }
+2015-01-18 19:30:10	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:30:28	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:30:28	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:30:28	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:30:28	Mac-Mini	[TRACE]	Queue	sendMsg	physio-400
+2015-01-18 19:30:28	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-400',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:30:28.447Z',
+  _id: 54bc09d4ab95d29d8300d60f,
+  send: '2015-01-18T19:30:28.460Z',
+  code: 400 }
+2015-01-18 19:30:36	Mac-Mini	[TRACE]	IQueue	getMessages
+filter error
+search { send: { '$exists': 1 }, code: 400 }
+2015-01-18 19:30:40	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:30:46	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:30:53	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:30:53	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:30:53	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:30:53	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:30:53	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+-> Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:30:53.432Z',
+  _id: 54bc09edab95d29d8300d610 }
+2015-01-18 19:31:10	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:31:10	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:31:10	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:31:10	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:31:10	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+-> Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:30:53.432Z',
+  _id: 54bc09edab95d29d8300d610 }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:33:31	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:33:31	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:33:31	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:33:31	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:33:31	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+2015-01-18 19:33:40	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:34:17	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:34:17	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:34:17	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:34:17	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:34:17	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+-> Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:30:53.432Z',
+  _id: 54bc09edab95d29d8300d610 }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:34:46	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:34:46	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:34:46	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:34:46	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:34:46	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+-> Error { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:30:53.432Z',
+  _id: 54bc09edab95d29d8300d610 } false
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:37:05	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:37:05	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:37:05	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:37:05	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:37:05	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:37:12	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:37:12	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:37:12	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:37:12	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:37:12	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+2015-01-18 19:37:23	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:37:32	Mac-Mini	[TRACE]	IQueue	delAllMessage
+2015-01-18 19:37:32	Mac-Mini	[TRACE]	Queue	clear
+2015-01-18 19:37:35	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:37:39	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:37:43	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:37:43	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:37:43	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:37:43	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 19:37:43	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:37:43.717Z',
+  _id: 54bc0b8722b5a42a847edef7,
+  send: '2015-01-18T19:37:43.739Z',
+  code: 200 }
+2015-01-18 19:37:48	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:37:56	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:37:56	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:37:56	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:37:56	Mac-Mini	[TRACE]	Queue	sendMsg	physio-400
+2015-01-18 19:37:56	Mac-Mini	[TRACE]	Queue	getDatabase
+message sent { gateway: 'physio-400',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:37:56.015Z',
+  _id: 54bc0b9422b5a42a847edef8,
+  send: '2015-01-18T19:37:56.033Z',
+  code: 400 }
+2015-01-18 19:38:01	Mac-Mini	[TRACE]	IQueue	getMessages
+filter all
+search {}
+2015-01-18 19:38:07	Mac-Mini	[TRACE]	IQueue	getMessages
+filter error
+search { send: { '$exists': 1 }, code: 400 }
+2015-01-18 19:38:22	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:38:22	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:38:22	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:38:22	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:38:22	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+2015-01-18 19:38:33	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:38:50	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:38:50	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:38:50	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:38:50	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:38:50	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+2015-01-18 19:39:03	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 19:39:23	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 19:39:23	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 19:39:23	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:39:23	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:39:23	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:40:09	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:40:09	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:40:09	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:40:09	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:40:09	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+2015-01-18 19:40:17	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:40:40	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:40:40	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:40:40	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:40:40	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:40:40	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:40:59	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:40:59	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:40:59	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:40:59	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:40:59	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:42:28	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:42:28	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:42:28	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:42:28	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:42:28	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:42:40	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:42:40	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:42:40	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:42:40	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:42:40	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur null 500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:43:09	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:43:09	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:43:09	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 19:43:09	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:43:09	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+Program node queueService.js -p 8001 exited with code 8
+
+Starting child process with 'node queueService.js -p 8001'
+Program node queueService.js -p 8001 exited with code 8
+
+Starting child process with 'node queueService.js -p 8001'
+Program node queueService.js -p 8001 exited with code 8
+
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:44:24	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:44:24	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:44:24	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+message  54bc0bae22b5a42a847edef9 2015-01-18T19:38:22.108Z
+2015-01-18 19:44:24	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:44:24	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:44:25	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:44:25	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:44:25	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+message  54bc0bae22b5a42a847edef9 2015-01-18T19:38:22.108Z
+2015-01-18 19:44:25	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:44:25	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+2015-01-18 19:44:47	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:45:31	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:45:31	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:45:31	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+message  54bc0bae22b5a42a847edef9 2015-01-18T19:38:22.108Z
+2015-01-18 19:45:31	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:45:31	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:46:16	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:46:16	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:46:16	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+message  54bc0bae22b5a42a847edef9 2015-01-18T19:38:22.108Z
+2015-01-18 19:46:16	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:46:16	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+test  { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:38:22.108Z',
+  _id: 54bc0bae22b5a42a847edef9 }
+2015-01-18 19:48:44	Mac-Mini	[TRACE]	IQueue	getMessages
+filter sent
+search { send: { '$exists': 1 } }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:49:22	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 19:49:22	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 19:49:22	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+message  54bc0bae22b5a42a847edef9 2015-01-18T19:38:22.108Z
+2015-01-18 19:49:22	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 19:49:22	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+test  { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:38:22.108Z',
+  _id: 54bc0bae22b5a42a847edef9 }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 19:59:19	Mac-Mini	[TRACE]	Queue	sendToSserver
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 20:01:08	Mac-Mini	[TRACE]	Queue	sendToSserver
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 20:01:46	Mac-Mini	[TRACE]	Queue	sendToSserver
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 20:02:17	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 20:02:17	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 20:02:17	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+nb  3
+2015-01-18 20:02:17	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 20:02:17	Mac-Mini	[TRACE]	Queue	getDatabase
+2015-01-18 20:02:17	Mac-Mini	[TRACE]	Queue	sendMsg	physio-400
+2015-01-18 20:02:17	Mac-Mini	[TRACE]	Queue	getDatabase
+2015-01-18 20:02:17	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 20:02:17	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+test  { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:38:22.108Z',
+  _id: 54bc0bae22b5a42a847edef9 }
+message sent { gateway: 'physio-400',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:38:50.616Z',
+  _id: 54bc0bca22b5a42a847edefa,
+  send: '2015-01-18T20:02:17.635Z',
+  code: 400 }
+test  { gateway: 'physio-400',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:38:50.616Z',
+  _id: 54bc0bca22b5a42a847edefa,
+  send: '2015-01-18T20:02:17.635Z',
+  code: 400 }
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:39:23.031Z',
+  _id: 54bc0beb22b5a42a847edefb,
+  send: '2015-01-18T20:02:17.642Z',
+  code: 200 }
+test  { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:39:23.031Z',
+  _id: 54bc0beb22b5a42a847edefb,
+  send: '2015-01-18T20:02:17.642Z',
+  code: 200 }
+2015-01-18 20:02:36	Mac-Mini	[TRACE]	IQueue	getMessages
+filter sent
+search { send: { '$exists': 1 } }
+2015-01-18 20:02:39	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+2015-01-18 20:02:46	Mac-Mini	[TRACE]	Queue	addMsg
+2015-01-18 20:02:46	Mac-Mini	[TRACE]	Queue	checkSchema
+2015-01-18 20:02:46	Mac-Mini	[TRACE]	Queue	sendToSserver
+nb  2
+2015-01-18 20:02:46	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 20:02:46	Mac-Mini	[TRACE]	Queue	getDatabase
+2015-01-18 20:02:46	Mac-Mini	[TRACE]	Queue	sendMsg	physio-028
+2015-01-18 20:02:46	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+test  { gateway: 'physio-500',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T19:38:22.108Z',
+  _id: 54bc0bae22b5a42a847edef9 }
+message sent { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T20:02:46.067Z',
+  _id: 54bc116683dff68e85da73d0,
+  send: '2015-01-18T20:02:46.091Z',
+  code: 200 }
+test  { gateway: 'physio-028',
+  method: 'DELETE',
+  content: [ { branch: 'hhr[123456]' } ],
+  datetime: '2015-01-18T20:02:46.067Z',
+  _id: 54bc116683dff68e85da73d0,
+  send: '2015-01-18T20:02:46.091Z',
+  code: 200 }
+2015-01-18 20:02:49	Mac-Mini	[TRACE]	IQueue	getMessages
+filter none
+search { send: { '$exists': 0 } }
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 20:04:08	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 20:04:08	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 20:04:08	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 20:04:08	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 20:04:08	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+crashing child
+Starting child process with 'node queueService.js -p 8001'
+2015-01-18 20:11:18	Mac-Mini	[TRACE]	Queue	sendToSserver
+2015-01-18 20:11:18	Mac-Mini	[INFO]	Queue Service	------------------------------------------------------------------
+2015-01-18 20:11:18	Mac-Mini	[INFO]	Queue Service	QueueService v0.0.1 listening at http://0.0.0.0:9000
+2015-01-18 20:11:18	Mac-Mini	[TRACE]	Queue	sendMsg	physio-500
+2015-01-18 20:11:18	Mac-Mini	[TRACE]	Queue	getDatabase
+erreur  500
+Sending SIGINT to child...
