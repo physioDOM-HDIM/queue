@@ -1,0 +1,5 @@
+{
+  "mongouri": "mongodb://127.0.0.1/physioDOM_queue",
+  "server":   "http://127.0.0.1:8443",
+  "key":      "D9C7F19C-7588-4C39-91BB-FBFEFE1BE90A"
+}
