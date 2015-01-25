@@ -35,8 +35,9 @@ config.key = program.key || config.key || null;
 config.server = program.server || config.server || null;
 
 var port = program.port;
-var queue = new Queue(config);;   // Queue object is global and so shared to all modules
+var queue = new Queue(config);    // Queue object is global and so shared to all modules
 global.queue = queue;
+global.config = config;
 
 var server = restify.createServer({
 	name:    pkg.name,
@@ -58,14 +59,15 @@ server.del( '/msg:msgID', IQueue.delMessage );
 
 server.post('/cmd/:cmd',  IQueue.command);
 
-server.post('/register',  IQueue.createPublisher);
-server.del( '/register',  IQueue.delPublisher);
+server.post('/register',  IQueue.getPublishers);
+server.post('/register/create',  IQueue.createPublisher);
+server.del( '/register/:publisherID',  IQueue.delPublisher);
 
 (function init() {
 	try {
 		queue.connect()
 			.then(function (queue) {
-				server.listen(port, "127.0.0.1", function () {
+				server.listen(port, "0.0.0.0", function () {
 					logger.info(server.name + " v" + server.versions + " listening at " + server.url);
 				});
 			})
