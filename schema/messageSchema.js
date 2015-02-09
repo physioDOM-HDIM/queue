@@ -8,6 +8,8 @@ var transmitMsgSchema = {
 	"additionalProperties":false,
 	"properties": {
 		"key": { type:"string", description:'key associated to the publisher', required:false},
+		"server": { type:"string", description:'server name of the sender', required:false},
+		"subject": { type:"string", description:"id of the beneficiary", required:true},
 		"gateway": { type:"string", description:"The gateway (PhysioDomBox) for which the URL is requested" , required:true },
 		"method": { type:"string", "enum":[ "POST", "DELETE" ], required: true},
 		"content": { 
