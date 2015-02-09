@@ -70,13 +70,16 @@ server.post('/plt.treedb.srv-18590/database', function(req, res, next) {
 	try {
 		var message = JSON.parse(req.body);
 		if( message instanceof Array ) {
+			logger.info("POST", message );
 			res.send( "POST "+ JSON.stringify(message) );
 			return next();
 		} else {
+			logger.error("POST is not an array" );
 			res.send(400, { code:400, message:"not an array" });
 			return next(false);
 		}
 	} catch(err) {
+		logger.error("POST bad message" );
 		res.send(400, { code:400, message:"bad message" });
 		return next(false);
 	}
