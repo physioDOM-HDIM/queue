@@ -19,7 +19,7 @@ var confSchema = {
 	"additionalProperties":false
 };
 
-fs.exists(__dirname+"/install.json", function(exists) {
+fs.exists(__dirname+"/../install.json", function(exists) {
 	var error = false;
 
 	if(!exists) {
@@ -27,7 +27,7 @@ fs.exists(__dirname+"/install.json", function(exists) {
 		process.exit(1);
 	}
 
-	var conf = require("./install.json");
+	var conf = require("../install.json");
 	
 	var homedir = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
 	for( var prop in conf ) {
