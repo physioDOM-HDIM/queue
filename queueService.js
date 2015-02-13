@@ -7,10 +7,10 @@ var restify = require("restify"),
 	program = require("commander"),
 	Promise = require("rsvp").Promise,
 	Logger  = require("logger"),
+	Agenda = require("agenda"),
 	dbPromise = require("./lib/dbPromise"),
 	Queue = require("./lib/queue"),
 	IQueue = require("./lib/IQueue");
-	
 
 var pkg     = require('./package.json');
 var logger = new Logger( "Queue Service");
@@ -65,10 +65,6 @@ server.del( '/register/:publisherID',  IQueue.delPublisher);
 
 server.post( '/:msgType', IQueue.receivedMsg );
 
-server.post( '/symptomsSelf', IQueue.symptomsSelf );
-server.post( '/symptoms', IQueue.symptoms );
-server.post( '/measures', IQueue.measures );
-
 (function init() {
 	try {
 		queue.connect()
@@ -76,6 +72,21 @@ server.post( '/measures', IQueue.measures );
 				server.listen(port, "0.0.0.0", function () {
 					logger.info(server.name + " v" + server.versions + " listening at " + server.url);
 				});
+			})
+			.then( function() {
+				console.log("start agenda");
+				var agenda = new Agenda({db: { address: config.mongouri }});
+
+				agenda.define('resend queue', function(job, done) {
+					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
+				});
+
+				agenda.define('push message', function(job, done) {
+					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
+				});
+
+				agenda.every('3 minutes', 'resend queue');
+				agenda.every('3 minutes', 'push message');
 			})
 			.catch(function (err) {
 				console.error("process exit with error");

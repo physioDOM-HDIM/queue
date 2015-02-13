@@ -12,6 +12,7 @@
   "author": "Fabrice Le Coz",
   "license": "ISC",
   "dependencies": {
+    "agenda": "^0.6.27",
     "commander": "^2.6.0",
     "jsonschema": "^1.0.0",
     "logger": "1.1.0",
