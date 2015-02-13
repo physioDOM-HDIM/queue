@@ -63,6 +63,12 @@ server.post('/register',  IQueue.getPublishers);
 server.post('/register/create',  IQueue.createPublisher);
 server.del( '/register/:publisherID',  IQueue.delPublisher);
 
+server.post( '/:msgType', IQueue.receivedMsg );
+
+server.post( '/symptomsSelf', IQueue.symptomsSelf );
+server.post( '/symptoms', IQueue.symptoms );
+server.post( '/measures', IQueue.measures );
+
 (function init() {
 	try {
 		queue.connect()
