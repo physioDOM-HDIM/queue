@@ -25,9 +25,9 @@ var transmitMsgSchema = {
 };
 
 var receivedMsgSchema = {
-	"id": "/ReceivedMessage",
-	"description": "Message received from SServer",
-	"type": "object",
+	id: "/ReceivedMessage",
+	description: "Message received from SServer",
+	type: "object",
 	oneOf: [
 		{
 			"properties": {
@@ -49,7 +49,8 @@ var receivedMsgSchema = {
 							"value": {type: "number", required: true},
 							"datetime": {type: "integer", required: true}
 						}
-					}
+					},
+					required: true
 				}
 			},
 			"additionalProperties": false
@@ -68,7 +69,8 @@ var receivedMsgSchema = {
 							"datetime": {type: "integer", required: true},
 							"automatic": {type: "boolean", required: true}
 						}
-					}
+					},
+					required: true
 				}
 			},
 			"additionalProperties": false
