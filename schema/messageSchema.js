@@ -15,6 +15,7 @@ var transmitMsgSchema = {
 			description: "The gateway (PhysioDomBox) for which the URL is requested",
 			required: true
 		},
+		"init": { type:"boolean" },
 		"method": {type: "string", "enum": ["POST", "DELETE"], required: true},
 		"content": {
 			type: "array",
