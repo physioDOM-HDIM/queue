@@ -24,6 +24,29 @@ var transmitMsgSchema = {
 	}
 };
 
+var symptomMsgSchema = {
+	id:"/symptomMessage",
+	type:"object",
+	properties: {
+		"id": { type: "string", required: true},
+		"value": { type: "integer", required: true},
+		"datetime": { type: "integer", required: true}
+	},
+	"additionalProperties": false
+};
+
+var paramMsgSchema = {
+	id:"/parameterMessage",
+	type:"object",
+	properties: {
+		"id": { type: "string", required: true},
+		"value": { type: "integer", required: true},
+		"datetime": { type: "integer", required: true},
+		"automatic": {type: "boolean", required: true}
+	},
+	"additionalProperties": false
+};
+
 var receivedMsgSchema = {
 	id: "/ReceivedMessage",
 	description: "Message received from SServer",
@@ -42,15 +65,7 @@ var receivedMsgSchema = {
 				"id": {type: "string", description: "id of the symptoms assesment", required: true},
 				"scales": {
 					type: "array",
-					items: {
-						type: "object",
-						properties: {
-							"id": {type: "string", required: true},
-							"value": {type: "number", required: true},
-							"datetime": {type: "integer", required: true}
-						}
-					},
-					required: true
+					items: {  "$ref": "/symptomMessage" }
 				}
 			},
 			"additionalProperties": false
@@ -61,16 +76,7 @@ var receivedMsgSchema = {
 				"id": {type: "string", description: "id of the symptoms assesment", required: true},
 				"params": {
 					type: "array",
-					items: {
-						type: "object",
-						properties: {
-							"id": {type: "string", required: true},
-							"value": {type: "number", required: true},
-							"datetime": {type: "integer", required: true},
-							"automatic": {type: "boolean", required: true}
-						}
-					},
-					required: true
+					items: {  "$ref": "/parameterMessage" }
 				}
 			},
 			"additionalProperties": false
@@ -82,6 +88,8 @@ var receivedMsgSchema = {
 var Validator = require('jsonschema').Validator;
 var validator = new Validator();
 validator.addSchema(transmitMsgSchema, '/Message');
+validator.addSchema(symptomMsgSchema, '/symptomMessage');
+validator.addSchema(paramMsgSchema, '/parameterMessage');
 validator.addSchema(receivedMsgSchema, '/ReceivedMessage');
 
 module.exports.validator = validator;
