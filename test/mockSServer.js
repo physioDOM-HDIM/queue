@@ -4,6 +4,7 @@
 
 var restify = require("restify"),
 	fs = require("fs"),
+	program = require("commander"),
 	Logger  = require("logger");
 
 var logger = new Logger( "Mock SServer");
@@ -19,6 +20,17 @@ var server = restify.createServer({
     rejectUnauthorized:false
 });
 */
+
+var config = {};
+program
+	.version(pkg.version)
+	.usage('[options] [dir]')
+	.option('-c, --config <config>', 'configuration file', String )
+	.parse(process.argv);
+
+if( program.config ) {
+	config = require(program.config);
+}
 
 var server = restify.createServer({
 	name:    "SServer mock",
@@ -57,7 +69,7 @@ server.use( function(req, res, next) {
 
 server.get('/restUrl.rest', function( req,res, next) {
 	logger.trace("get gateway database");
-	if( !req.params.appSri || req.params.appSri !== "plt.treedb.srv/rest" ) {
+	if( !req.params.appSri || req.params.appSri !== config.appSri ) {
 		res.send(400, { code:400, message:"bad message (no appSri)" });
 		return next(false);
 	} else {
