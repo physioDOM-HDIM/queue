@@ -21,6 +21,7 @@ var server = restify.createServer({
 });
 */
 
+var pkg     = require('../package.json');
 var config = {};
 program
 	.version(pkg.version)
