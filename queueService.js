@@ -79,6 +79,7 @@ server.post( '/:msgType', IQueue.receivedMsg );
 
 				agenda.define('resend queue', function(job, done) {
 					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
+					// queue.sendToSserver();
 				});
 
 				agenda.define('push message', function(job, done) {
