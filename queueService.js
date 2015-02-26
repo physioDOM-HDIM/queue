@@ -75,7 +75,7 @@ server.post( '/:msgType', IQueue.receivedMsg );
 				});
 			})
 			.then( function() {
-				console.log("start agenda");
+				logger.info("start agenda", config.retry );
 				var agenda = new Agenda({db: { address: config.mongouri }});
 
 				agenda.define('resend queue', function(job, done) {
@@ -88,7 +88,7 @@ server.post( '/:msgType', IQueue.receivedMsg );
 				});
 
 				agenda.every( config.retry+' minutes', 'resend queue');
-				// agenda.every('3 minutes', 'push message');
+				// agenda.every(config.retry+'' minutes', 'push message');
 			})
 			.catch(function (err) {
 				console.error("process exit with error");
