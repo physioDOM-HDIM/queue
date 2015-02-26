@@ -38,6 +38,7 @@ var port = program.port;
 var queue = new Queue(config);    // Queue object is global and so shared to all modules
 global.queue = queue;
 global.config = config;
+var agenda = new Agenda({db: { address: config.mongouri }});
 
 var server = restify.createServer({
 	name:    pkg.name,
@@ -76,19 +77,27 @@ server.post( '/:msgType', IQueue.receivedMsg );
 			})
 			.then( function() {
 				logger.info("start agenda", config.retry );
-				var agenda = new Agenda({db: { address: config.mongouri }});
 
-				agenda.define('resend queue', function(job, done) {
-					// resend the queue for waiting ( rejected ) message
-					queue.sendToSserver();
+				agenda.purge( function(err, numRemoved) {
+					logger.info("agenda jobs removed");
+
+					agenda.define('resend queue', function (job, done) {
+						// resend the queue for waiting ( rejected ) message
+						queue.sendToSserver();
+					});
+
+					agenda.every(config.retry + ' minutes', 'resend queue');
 				});
-
+				
+				/*
 				agenda.define('push message', function(job, done) {
 					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
 				});
-
-				agenda.every( config.retry+' minutes', 'resend queue');
+				*/
+				
 				// agenda.every(config.retry+'' minutes', 'push message');
+				
+				agenda.start();
 			})
 			.catch(function (err) {
 				console.error("process exit with error");
