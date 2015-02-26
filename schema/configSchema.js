@@ -9,7 +9,9 @@ var configSchema = {
 	"properties": {
 		"mongouri": { type:"string", description:"The mongodb uri" , required:true },
 		"server": { type:"string", pattern:"^(http|https)\:\/\/.*", description:"the SServer url", required: true},
-		"key": { type:'string', required:true }
+		"key": { type:'string', required:true },
+		"appSri": { type:'string', required:true },
+		"retry": { type:'integer', default:3 }
 	}
 };
 

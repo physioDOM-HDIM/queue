@@ -38,6 +38,7 @@ var port = program.port;
 var queue = new Queue(config);    // Queue object is global and so shared to all modules
 global.queue = queue;
 global.config = config;
+var agenda = new Agenda({db: { address: config.mongouri }});
 
 var server = restify.createServer({
 	name:    pkg.name,
@@ -71,22 +72,34 @@ server.post( '/:msgType', IQueue.receivedMsg );
 			.then(function (queue) {
 				server.listen(port, "0.0.0.0", function () {
 					logger.info(server.name + " v" + server.versions + " listening at " + server.url);
+					logger.info("config", config );
 				});
 			})
 			.then( function() {
-				console.log("start agenda");
-				var agenda = new Agenda({db: { address: config.mongouri }});
+				logger.info("start agenda", config.retry );
 
-				agenda.define('resend queue', function(job, done) {
-					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
+				agenda.purge( function(err, numRemoved) {
+					logger.info("agenda jobs removed");
+
+					agenda.define('resend queue', function (job, done) {
+						// resend the queue for waiting ( rejected ) message
+						logger.trace("reactivate the queue");
+						queue.sendToSserver();
+						done();
+					});
+
+					agenda.every(config.retry + ' minutes', 'resend queue');
 				});
-
+				
+				/*
 				agenda.define('push message', function(job, done) {
 					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
 				});
-
-				agenda.every('3 minutes', 'resend queue');
-				agenda.every('3 minutes', 'push message');
+				*/
+				
+				// agenda.every(config.retry+'' minutes', 'push message');
+				
+				agenda.start();
 			})
 			.catch(function (err) {
 				console.error("process exit with error");
