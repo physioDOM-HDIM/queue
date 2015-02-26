@@ -71,9 +71,11 @@ server.use( function(req, res, next) {
 server.get('/restUrl.rest', function( req,res, next) {
 	logger.trace("get gateway database");
 	if( !req.params.appSri || req.params.appSri !== config.appSri ) {
+		logger.warning("bad message (no appSri)");
 		res.send(400, { code:400, message:"bad message (no appSri)" });
 		return next(false);
 	} else {
+		logger.info("send default database");
 		res.send("/plt.treedb.srv-18590");
 		return next();
 	}
@@ -120,4 +122,5 @@ server.del('/plt.treedb.srv-18590/database', function(req, res, next) {
 server.listen(8443, function() {
 	logger.info('------------------------------------------------------------------');
   	logger.info(server.name+" v"+server.versions+" listening at "+server.url);
+	logger.info("config", JSON.stringify(config,"",4));
 });
