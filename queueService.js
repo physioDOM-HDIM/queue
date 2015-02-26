@@ -71,6 +71,7 @@ server.post( '/:msgType', IQueue.receivedMsg );
 			.then(function (queue) {
 				server.listen(port, "0.0.0.0", function () {
 					logger.info(server.name + " v" + server.versions + " listening at " + server.url);
+					logger.info("config", config );
 				});
 			})
 			.then( function() {
@@ -78,16 +79,16 @@ server.post( '/:msgType', IQueue.receivedMsg );
 				var agenda = new Agenda({db: { address: config.mongouri }});
 
 				agenda.define('resend queue', function(job, done) {
-					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
-					// queue.sendToSserver();
+					// resend the queue for waiting ( rejected ) message
+					queue.sendToSserver();
 				});
 
 				agenda.define('push message', function(job, done) {
 					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
 				});
 
-				agenda.every('3 minutes', 'resend queue');
-				agenda.every('3 minutes', 'push message');
+				agenda.every( config.retry+' minutes', 'resend queue');
+				// agenda.every('3 minutes', 'push message');
 			})
 			.catch(function (err) {
 				console.error("process exit with error");
