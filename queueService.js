@@ -83,7 +83,9 @@ server.post( '/:msgType', IQueue.receivedMsg );
 
 					agenda.define('resend queue', function (job, done) {
 						// resend the queue for waiting ( rejected ) message
+						logger.trace("reactivate the queue");
 						queue.sendToSserver();
+						done();
 					});
 
 					agenda.every(config.retry + ' minutes', 'resend queue');
