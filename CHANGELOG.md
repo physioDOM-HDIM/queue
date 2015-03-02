@@ -2,7 +2,10 @@
 % Fabrice Le Coz  
 % February, 2015
 
+__v0.0.12__
 
+  - add an example of url with basic authentification for SServer
+  
 __v0.0.11__
 
   - modif config file : add appSri and retry
