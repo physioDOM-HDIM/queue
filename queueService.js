@@ -96,15 +96,7 @@ server.post( '/:msgType', IQueue.receivedMsg );
 					agenda.every(config.retry + ' minutes', 'resend queue');
 				});
 				
-				/*
-				agenda.define('push message', function(job, done) {
-					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
-				});
-				*/
-				
-				// agenda.every(config.retry+'' minutes', 'push message');
-				
-				return agenda.start();
+				agenda.start();
 			})
 			.catch(function (err) {
 				console.error("process exit with error");
