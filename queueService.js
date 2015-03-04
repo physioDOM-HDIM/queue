@@ -51,6 +51,11 @@ server.use(restify.queryParser());
 server.use(restify.bodyParser());
 server.pre(restify.pre.userAgentConnection());
 
+server.use( function( req, res, next ) {
+	logger.info( "method", req.method, req.url );
+	return next();
+});
+
 server.get( '/',          IQueue.status);
 
 server.get( '/msg',       IQueue.getMessages );
@@ -69,10 +74,10 @@ server.post( '/:msgType', IQueue.receivedMsg );
 (function init() {
 	try {
 		queue.connect()
-			.then(function (queue) {
+			.then(function () {
 				server.listen(port, "0.0.0.0", function () {
 					logger.info(server.name + " v" + server.versions + " listening at " + server.url);
-					logger.info("config", config );
+					logger.info("config", JSON.stringify(config,"",4) );
 				});
 			})
 			.then( function() {
@@ -90,14 +95,6 @@ server.post( '/:msgType', IQueue.receivedMsg );
 
 					agenda.every(config.retry + ' minutes', 'resend queue');
 				});
-				
-				/*
-				agenda.define('push message', function(job, done) {
-					// User.remove({lastLogIn: { $lt: twoDaysAgo }}, done);
-				});
-				*/
-				
-				// agenda.every(config.retry+'' minutes', 'push message');
 				
 				agenda.start();
 			})
