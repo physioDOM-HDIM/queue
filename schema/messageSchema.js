@@ -48,6 +48,46 @@ var paramMsgSchema = {
 	"additionalProperties": false
 };
 
+var messageReadSchema = {
+	id:"/messageRead",
+	type:"object",
+	properties: {
+		"hhr": { type: "string", description: "reference of the beneficiary", required: true},
+		"id":  { type: "string", description: "read message id", required: true }
+	},
+	"additionalProperties": false
+};
+
+var measureSchema = {
+	id: "/MeasuresMessage",
+	description: "Measures received from SServer",
+	type: "object",
+	"properties": {
+		"hhr": {type: "string", description: "reference of the beneficiary", required: true},
+		"id": {type: "string", description: "id of the symptoms assesment", required: true},
+		"params": {
+			type: "array",
+			items: {  "$ref": "/parameterMessage" }
+		}
+	},
+	"additionalProperties": false
+};
+
+var symptomSchema = {
+	id: "/SymptomsMessage",
+	description: "symptoms assessments received from SServer",
+	type: "object",
+	"properties": {
+		"hhr": {type: "string", description: "reference of the beneficiary", required: true},
+		"id": {type: "string", description: "id of the symptoms assesment", required: true},
+		"scales": {
+			type: "array",
+			items: {  "$ref": "/symptomMessage" }
+		}
+	},
+	"additionalProperties": false
+};
+
 var receivedMsgSchema = {
 	id: "/ReceivedMessage",
 	description: "Message received from SServer",
@@ -55,8 +95,8 @@ var receivedMsgSchema = {
 	oneOf: [
 		{
 			"properties": {
-				"hhr": {type: "string", description: "reference of the beneficiary", required: true},
-				"id": {type: "string", description: "read message id", required: true}
+				"hhr": { type: "string", description: "reference of the beneficiary", required: true},
+				"id":  { type: "string", description: "read message id", required: true }
 			},
 			"additionalProperties": false
 		},
@@ -91,6 +131,9 @@ var validator = new Validator();
 validator.addSchema(transmitMsgSchema, '/Message');
 validator.addSchema(symptomMsgSchema, '/symptomMessage');
 validator.addSchema(paramMsgSchema, '/parameterMessage');
+validator.addSchema(messageReadSchema, '/messageRead');
+validator.addSchema(measureSchema, '/MeasuresMessage');
+validator.addSchema(symptomSchema, '/SymptomsMessage');
 validator.addSchema(receivedMsgSchema, '/ReceivedMessage');
 
 module.exports.validator = validator;
