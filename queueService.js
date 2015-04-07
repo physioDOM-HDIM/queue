@@ -29,15 +29,31 @@ program
 	.parse(process.argv);
 
 if( program.config ) {
-	config = require(program.config);
+	if( program.config.slice(0,1) !== '/') {
+		program.config = require('path').join( process.cwd(), program.config );
+	}
+
+	if( !fs.existsSync( program.config ) ) {
+		logger.emergency("couldn't find the config file");
+		process.exit(1);
+	}
+	
+	try {
+		config = require(program.config);
+	} catch(err) {
+		logger.emergency("config file bad syntax");
+		process.exit(1);
+	}
 }
 config.key = program.key || config.key || null;
 config.server = program.server || config.server || null;
-
+if( !config.retry ) {
+	config.retry = 5;
+}
 var port = program.port;
 var queue = new Queue(config);    // Queue object is global and so shared to all modules
 global.queue = queue;
-global.config = config;
+
 var agenda = new Agenda({db: { address: config.mongouri }});
 
 var server = restify.createServer({

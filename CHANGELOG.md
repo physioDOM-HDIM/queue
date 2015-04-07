@@ -2,6 +2,16 @@
 % Fabrice Le Coz  
 % February, 2015
 
+__v0.0.14__
+
+  - add a emergency log if the config file couldn't be found
+  - add a emergency log if the config file isn't a JSON file
+  - change warning to emergency log when checking the config file
+  - add "retry" in config file : retry in minutes ( resend messages kept in the queue )
+  - set box status to null ( unknown ) on sending init message
+  
+__v0.0.13__
+
 __v0.0.12__
 
   - add an example of url with basic authentification for SServer

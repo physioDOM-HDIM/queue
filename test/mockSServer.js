@@ -30,12 +30,25 @@ program
 	.parse(process.argv);
 
 if( program.config ) {
-	config = require(program.config);
+	if( program.config.slice(0,1) !== '/') {
+		program.config = require('path').join( process.cwd(), program.config );
+	}
+	
+	if( !fs.existsSync( program.config ) ) {
+		logger.emergency("couldn't find the config file");
+		process.exit(1);
+	}
+	try {
+		config = require(program.config);
+	} catch(err) {
+		logger.emergency("config file bad syntax");
+		process.exit(1);
+	}
 }
 
 var server = restify.createServer({
 	name:    "SServer mock",
-	version: "0.0.1",
+	version: "0.0.2"
 });
 
 server.use(restify.gzipResponse());
