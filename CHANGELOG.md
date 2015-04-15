@@ -2,6 +2,10 @@
 % Fabrice Le Coz  
 % February, 2015
 
+__v0.0.15__
+
+  - Fix url to delete msg
+
 __v0.0.14__
 
   - add a emergency log if the config file couldn't be found
@@ -12,6 +16,9 @@ __v0.0.14__
   
 __v0.0.13__
 
+  - FIX received 'application/json'
+  - create a schema for each message type
+  
 __v0.0.12__
 
   - add an example of url with basic authentification for SServer

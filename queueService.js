@@ -77,7 +77,7 @@ server.get( '/',          IQueue.status);
 server.get( '/msg',       IQueue.getMessages );
 server.post('/msg',       IQueue.pushMessage );
 server.del( '/msg/all',   IQueue.delAllMessages );
-server.del( '/msg:msgID', IQueue.delMessage );
+server.del( '/msg/:msgID', IQueue.delMessage );
 
 server.post('/cmd/:cmd',  IQueue.command);
 
