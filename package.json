@@ -1,6 +1,6 @@
 {
   "name": "QueueService",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Queue service that send messages to SServer",
   "main": "queueService.js",
   "scripts": {
