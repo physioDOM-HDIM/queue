@@ -1,4 +1,16 @@
-DS_Store
+.DS_Store
 .Idea/
 node_modules/
+keys
+dist/
+log/*.log
+static/test/
+*.log
 install/install.json
+static/bower_components
+nginx.conf
+install.json~
+physiodom.telecomsante.com~
+config.json
+**/._*
+.idea
