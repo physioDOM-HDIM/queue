@@ -2,6 +2,10 @@
 % Fabrice Le Coz  
 % February, 2015
 
+__v0.0.15-1__
+
+  - Adds some logs on received messages from the SServer
+  
 __v0.0.15__
 
   - Fix url to delete msg
