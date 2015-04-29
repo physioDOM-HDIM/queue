@@ -2,6 +2,11 @@
 % Fabrice Le Coz  
 % February, 2015
 
+__v0.0.16__
+
+  - add logs for http requests
+  - Fix regression on received messages
+
 __v0.0.15-1__
 
   - Adds some logs on received messages from the SServer
