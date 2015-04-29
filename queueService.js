@@ -61,6 +61,20 @@ var server = restify.createServer({
 	version: pkg.version
 });
 
+/**
+ * message de log de la réponse
+ *
+ * @param {Object} req the request object
+ * @param {Object} res the response object
+ * @return null
+ */
+function responseLog(req, res) {
+	var ipAddress = req.headers['x-forwarded-for'] === undefined ? req.connection.remoteAddress : req.headers['x-forwarded-for'];
+	var responseTime = (res._headers && res._headers.hasOwnProperty('response-time') ? res._headers['response-time'] + 'ms' : '');
+	logger.info(ipAddress, req.method, req.url, res.statusCode, responseTime);
+	return;
+}
+
 server.use(restify.gzipResponse());
 server.use(restify.fullResponse());
 server.use(restify.queryParser());
@@ -72,20 +86,24 @@ server.use( function( req, res, next ) {
 	return next();
 });
 
-server.get( '/',          IQueue.status);
+server.on("after",function(req,res) {
+	responseLog(req, res);
+});
 
-server.get( '/msg',       IQueue.getMessages );
-server.post('/msg',       IQueue.pushMessage );
-server.del( '/msg/all',   IQueue.delAllMessages );
+server.get( '/',           IQueue.status);
+
+server.get( '/msg',        IQueue.getMessages );
+server.post('/msg',        IQueue.pushMessage );
+server.del( '/msg/all',    IQueue.delAllMessages );
 server.del( '/msg/:msgID', IQueue.delMessage );
 
-server.post('/cmd/:cmd',  IQueue.command);
+server.post('/cmd/:cmd',   IQueue.command);
 
-server.post('/register',  IQueue.getPublishers);
+server.post('/register',   IQueue.getPublishers);
 server.post('/register/create',  IQueue.createPublisher);
 server.del( '/register/:publisherID',  IQueue.delPublisher);
 
-server.post( '/:msgType', IQueue.receivedMsg );
+server.post( '/:msgType',  IQueue.receivedMsg );
 
 (function init() {
 	try {
