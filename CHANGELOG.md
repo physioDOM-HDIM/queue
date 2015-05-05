@@ -2,6 +2,10 @@
 % Fabrice Le Coz  
 % February, 2015
 
+__v0.0.17__
+
+  - Fix receive measure from SServer
+  
 __v0.0.16__
 
   - add logs for http requests
