@@ -43,7 +43,7 @@ var paramMsgSchema = {
 		"id": { type: "string", required: true},
 		"value": { type: "integer", required: true},
 		"datetime": { type: "integer", required: true},
-		"automatic": {type: "integer"}
+		"automatic": {type: [ "integer", "null" ] }
 	},
 	"additionalProperties": false
 };
