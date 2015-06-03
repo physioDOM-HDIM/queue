@@ -30,7 +30,7 @@ var symptomMsgSchema = {
 	type:"object",
 	properties: {
 		"id": { type: "string", required: true},
-		"value": { type: "integer", required: true},
+		"value": { type: "number", required: true},
 		"datetime": { type: "integer", required: true}
 	},
 	"additionalProperties": false
@@ -41,7 +41,7 @@ var paramMsgSchema = {
 	type:"object",
 	properties: {
 		"id": { type: "string", required: true},
-		"value": { type: "integer", required: true},
+		"value": { type: "number", required: true},
 		"datetime": { type: "integer", required: true},
 		"automatic": {type: [ "integer", "null" ] }
 	},
