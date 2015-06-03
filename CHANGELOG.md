@@ -2,6 +2,13 @@
 % Fabrice Le Coz  
 % June, 2015
 
+__v1.0.0__
+
+>__Nota :__  The version 0.0.18 is marked as version 1.0.0 ( prod version ).  
+> The patched production versions  will be marked as 1.0.x
+>
+> The development versions will be marked as 1.1.x
+
 __v0.0.18__
 
   - Fix Schema for received measures
