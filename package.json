@@ -1,11 +1,10 @@
 {
   "name": "QueueService",
-  "version": "0.0.17-1",
+  "version": "0.0.18",
   "description": "Queue service that send messages to SServer",
   "main": "queueService.js",
   "scripts": {
     "preinstall": "npm install ./install/logger-v1.1.0.tar.gz",
-    "install": "node install/install.js",
     "start": "supervisor -w package.json,./ -- queueService.js -c ./queue.json 2>&1 > queue.log",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
