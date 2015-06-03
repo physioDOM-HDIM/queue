@@ -1,7 +1,12 @@
 % Queue service changelog  
 % Fabrice Le Coz  
-% February, 2015
+% June, 2015
 
+__v0.0.18__
+
+  - Fix Schema for received measures
+  - Fix Rejected message when no database is found
+  
 __v0.0.17-1__
 
   - Fix Timeout on transmitting message to HHRPro instances
