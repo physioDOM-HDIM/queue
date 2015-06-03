@@ -124,6 +124,7 @@ server.post( '/:msgType',  IQueue.receivedMsg );
 						// resend the queue for waiting ( rejected ) message
 						logger.trace("reactivate the queue");
 						queue.sendToSserver();
+						console.log("done");
 						done();
 					});
 
