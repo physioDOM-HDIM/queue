@@ -53,7 +53,8 @@ var messageReadSchema = {
 	type:"object",
 	properties: {
 		"hhr": { type: "string", description: "reference of the beneficiary", required: true},
-		"id":  { type: "string", description: "read message id", required: true }
+		"id":  { type: "string", description: "read message id", required: true },
+		"messageId": { type:"string", description:"unknown" }
 	},
 	"additionalProperties": false
 };
@@ -65,6 +66,7 @@ var measureSchema = {
 	"properties": {
 		"hhr": {type: "string", description: "reference of the beneficiary", required: true},
 		"id": {type: "string", description: "id of the symptoms assesment", required: true},
+		"messageId": { type:"string", description:"unknown" },
 		"params": {
 			type: "array",
 			items: {  "$ref": "/parameterMessage" }
@@ -80,6 +82,7 @@ var symptomSchema = {
 	"properties": {
 		"hhr": {type: "string", description: "reference of the beneficiary", required: true},
 		"id": {type: "string", description: "id of the symptoms assesment", required: true},
+		"messageId": { type:"string", description:"unknown" },
 		"scales": {
 			type: "array",
 			items: {  "$ref": "/symptomMessage" }
@@ -96,7 +99,8 @@ var receivedMsgSchema = {
 		{
 			"properties": {
 				"hhr": { type: "string", description: "reference of the beneficiary", required: true},
-				"id":  { type: "string", description: "read message id", required: true }
+				"id":  { type: "string", description: "read message id", required: true },
+				"messageId": { type:"string", description:"unknown" }
 			},
 			"additionalProperties": false
 		},
@@ -104,6 +108,7 @@ var receivedMsgSchema = {
 			"properties": {
 				"hhr": {type: "string", description: "reference of the beneficiary", required: true},
 				"id": {type: "string", description: "id of the symptoms assesment", required: true},
+				"messageId": { type:"string", description:"unknown" },
 				"scales": {
 					type: "array",
 					items: {  "$ref": "/symptomMessage" }
@@ -115,6 +120,7 @@ var receivedMsgSchema = {
 			"properties": {
 				"hhr": {type: "string", description: "reference of the beneficiary", required: true},
 				"id": {type: "string", description: "id of the symptoms assesment", required: true},
+				"messageId": { type:"string", description:"unknown" },
 				"params": {
 					type: "array",
 					items: {  "$ref": "/parameterMessage" }
