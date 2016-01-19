@@ -128,7 +128,15 @@ server.post( '/:msgType',  IQueue.receivedMsg );
 						done();
 					});
 
+					agenda.define('receive queue', function (job, done) {
+						// resend the queue for waiting ( rejected ) message
+						logger.trace("send received message");
+						queue.sendToHHRPro();
+						done();
+					});
+
 					agenda.every(config.retry + ' minutes', 'resend queue');
+					agenda.every(config.retry + ' minutes', 'receive queue');
 				});
 				
 				agenda.start();
