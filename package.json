@@ -22,5 +22,8 @@
     "restify": "^2.8.4",
     "rsvp": "^3.0.16",
     "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "supervisor": "^0.9.1"
   }
 }
