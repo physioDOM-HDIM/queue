@@ -136,7 +136,7 @@ server.post( '/:msgType',  IQueue.receivedMsg );
 					});
 
 					agenda.every(config.retry + ' minutes', 'resend queue');
-					agenda.every(config.retry + ' minutes', 'receive queue');
+					// agenda.every(config.retry + ' minutes', 'receive queue');
 				});
 				
 				agenda.start();

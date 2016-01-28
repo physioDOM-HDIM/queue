@@ -3,6 +3,10 @@
 % June, 2015
 
 
+__v1.0.2__
+
+  - revert relay message from 1.0.0
+  
 __v1.0.1__
 
   - update schema to accept the "messageId" property in received messages
