@@ -1,8 +1,11 @@
 % Queue service changelog  
 % Fabrice Le Coz  
-% June, 2015
+% July, 2016
 
+__v1.0.3__
 
+  - add some debug logs
+  
 __v1.0.2__
 
   - revert relay message from 1.0.0
