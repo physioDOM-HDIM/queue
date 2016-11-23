@@ -10,6 +10,8 @@ The SServer is a gateway done by SIRLAN, that pilots Set Top boxes through 3G co
 
 ![](Global.png)
 
+![](physiodom.png)
+
 ## installation
 
 ### prepare the config file
