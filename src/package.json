@@ -1,6 +1,14 @@
 {
   "name": "QueueService",
   "version": "1.0.3",
+  "license": "CC-BY-NC-4.0",
+  "author": "Telecom Sante <dev@telecomsante.com>",
+  "contributors": [
+    {
+      "name": "Fabrice Le Coz",
+      "email": "fabrice.lecoz@telecomsante.com"
+    }
+  ],
   "description": "Queue service that send messages to SServer",
   "main": "queueService.js",
   "scripts": {
@@ -8,8 +16,6 @@
     "start": "supervisor -w package.json,./ -- queueService.js -c /config/queue.json 2>&1 > /logs/queue.log",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Fabrice Le Coz",
-  "license": "ISC",
   "dependencies": {
     "agenda": "^0.6.27",
     "commander": "^2.6.0",
@@ -20,8 +26,7 @@
     "node-uuid": "^1.4.2",
     "request": "^2.51.0",
     "restify": "^2.8.4",
-    "rsvp": "^3.0.16",
-    "swig": "^1.4.2"
+    "rsvp": "^3.0.16"
   },
   "devDependencies": {
     "supervisor": "^0.9.1"

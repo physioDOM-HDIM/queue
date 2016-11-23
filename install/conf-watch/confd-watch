@@ -1,0 +1,84 @@
+#!/usr/bin/env node
+
+/**
+ * confd-watch service for queue
+ *
+ * This service will watch change in the etcd service running on the host
+ * On change the service will update the /etc/hosts file to allow the queue service
+ * to request the instances of HHR-pro
+ *
+ * The service watches only changes for the HHRPro instances
+ */
+var Etcd = require('node-etcd'),
+    program = require('commander'),
+    fs = require('fs'),
+    pkg = require("./package.json"),
+    moment = require('moment'),
+    exec = require('child_process').exec;
+
+var conf = { HHRPro: {} };
+
+program
+	.version( pkg.version )
+	.option('-h, --host [value]','etcd server [172.17.42.1]','172.17.42.1')
+	.parse(process.argv);
+
+console.log( "etcd server : ", program.host );
+
+etcd = new Etcd( program.host, '4001' );
+
+var loop = setInterval( getConf, 5000 );
+
+function updateHost(conf) {
+	var data = { HHR: [] };
+
+	if( !fs.existsSync('/etc/hosts.orig') ) {
+		fs.writeFileSync('/etc/hosts.orig', fs.readFileSync('/etc/hosts'));
+	}
+	
+	fs.writeFileSync('/etc/hosts', fs.readFileSync('/etc/hosts.orig'));
+	for( prop in conf.HHRPro ) {
+		fs.appendFileSync('/etc/hosts', conf.HHRPro[prop].ip+"\t"+conf.HHRPro[prop].dns+"\n" )
+	}
+	console.log(moment().toISOString()+" /etc/hosts updated");
+}
+
+function getConf() {
+	etcd.get('/services', { recursive: true }, function( err, resp ) {
+		if(err) {
+			console.error("error ",err);
+		} else {
+			clearInterval(loop);
+			if( resp.node.nodes ) {
+				resp.node.nodes.forEach( function(node) {
+					if( node.key === "/services/HHR-Pro") {
+						node.nodes.forEach( function(hhrpro) {
+							conf.HHRPro[hhrpro.key] = JSON.parse(hhrpro.value);
+							console.log( hhrpro.key, " -> ",conf.HHRPro[hhrpro.key]);
+						});
+					}
+				});
+			}
+			updateHost(conf);
+			
+			watcher = etcd.watcher("/services", null, { recursive:true} );
+			watcher.on("change", function( action ) {
+				switch( action.action ) {
+					case 'set':
+						if( action.node.key.match(/^\/services\/HHR-Pro/)) {
+							console.log(moment().toISOString()+"\t"+action.node.key+" change to "+action.node.value);
+							conf.HHRPro[action.node.key] = JSON.parse(action.node.value);
+						}
+						break;
+					case 'delete':
+						if( action.node.key.match(/^\/services\/HHR-Pro/)) {
+							console.log(moment().toISOString()+"\t"+action.node.key+" is down ");
+							delete conf.HHRPro[action.node.key];
+						}
+						break;
+				}
+				updateHost(conf);
+			});
+		}
+	});
+}
