@@ -1,7 +1,11 @@
 % Queue service changelog  
 % Fabrice Le Coz  
-% July, 2016
+% November, 2016
 
+__v1.0.4__
+
+  - public release
+    
 __v1.0.3__
 
   - add some debug logs

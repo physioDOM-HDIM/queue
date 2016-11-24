@@ -1,6 +1,6 @@
-% Queue Service
-% Fabrice Le Coz
-% Janauary, 2015
+% Queue Service  
+% Fabrice Le Coz  
+% November, 2016
 
 # Queue service
 
