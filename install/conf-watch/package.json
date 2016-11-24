@@ -1,0 +1,23 @@
+{
+  "name": "conf-watch",
+  "version": "0.0.2",
+  "description": "an etcd watcher",
+  "author": "Telecom Sante <tech@telecomsante.com>",
+  "contributors": [
+    { "name": "Fabrice Le Coz",  "email": "fabrice.lecoz@telecosmante.com"}
+  ],
+  "bin":"confd-watch",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^2.6.0",
+    "node-etcd": "^3.0.2",
+    "rsvp": "^3.0.16",
+    "swig": "^1.4.2",
+    "moment": "~2.8.4"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "license": "ISC"
+}
